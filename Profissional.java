@@ -7,7 +7,7 @@ public class Profissional extends Socio implements Professor_EBTT {
     }
 
     public void imprimirEmpresa() {
-        System.out.println(name+", "+idade+" anos, de CPF:"+cpf+", que paga um valor de anuidade de R$"+valor_anuidade);
+        System.out.println(name+", "+idade+" anos, de CPF:"+cpf+", que trabalha na empresa "+empresa+", que paga um valor de anuidade de R$"+valor_anuidade);
     }
 
     public void desconto() {
