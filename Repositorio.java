@@ -7,7 +7,7 @@ public class Repositorio {
         indice = 0;
     }
 
-    public void inserir(Socio s) throws Exception {
+    public void inserir(Socio S) throws Exception {
         boolean verify = false;
         for(int i = 0; i < indice; i++) {
             if(BD[i].getcpf() == (BD[S].getcpf())) {
@@ -19,6 +19,11 @@ public class Repositorio {
         if(!verify) {
             BD[indice] = S;
             indice++;
+        }
+    }
+    public class clickAdException {
+        public clickAdException() {
+            super("Conta já cadastrada");
         }
     }
 }
