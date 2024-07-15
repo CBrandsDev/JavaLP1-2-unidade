@@ -21,9 +21,11 @@ public class Repositorio {
             indice++;
         }
     }
+    
     public class clickAdException {
         public clickAdException() {
             super("Conta já cadastrada");
         }
     }
 }
+
