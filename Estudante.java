@@ -1,5 +1,6 @@
 public class Estudante extends Socio {
 
+    
     private String universidade;
 
     public Estudante(String n, String c, double vA, int i, String u) {
