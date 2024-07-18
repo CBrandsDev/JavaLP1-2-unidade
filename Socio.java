@@ -6,7 +6,7 @@ public abstract class Socio {
     protected int idade;
 
     public Socio(String n, String c, double vA, int i) {
-        nome = c;
+        nome = n;
         cpf = c;
         valor_anuidade = vA;
         idade = i;
