@@ -22,5 +22,7 @@ public class Main {
 
         p1.imprimir();
         e2.imprimir();
+
+        p2.desconto();
     }
 }
