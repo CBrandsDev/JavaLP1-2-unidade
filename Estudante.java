@@ -15,6 +15,6 @@ public class Estudante extends Socio {
     }
 
     public void imprimir() {
-        System.out.println("O Estudante " +super.nome+ "de " +super.idade+ " anos, estudante da universidade " + universidade);
+        System.out.println("O Estudante " +super.nome+ " de " +super.idade+ " anos, estudante da universidade " + universidade);
     }
 }
