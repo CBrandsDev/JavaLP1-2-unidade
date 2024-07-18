@@ -8,7 +8,7 @@ public class Profissional extends Socio implements Professor_EBTT {
     }
 
     public void imprimir() {
-        System.out.println("O professor " +super.nome+ ", de CPF " +super.cpf+ "");
+        System.out.println("O profissional " +super.nome+ ", de CPF " +super.cpf+ "");
     }
 
     public void desconto() {
