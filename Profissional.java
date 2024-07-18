@@ -1,5 +1,6 @@
 public class Profissional extends Socio implements Professor_EBTT {
 
+    
     private String empresa;
 
     public Profissional(String n, String c, double vA, int i, String e) {
